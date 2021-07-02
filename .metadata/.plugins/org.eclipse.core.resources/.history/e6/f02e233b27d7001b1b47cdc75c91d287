@@ -1,0 +1,10 @@
+package javaPracticeTest1;
+
+public class function {
+	
+	void add();
+	void sub();
+	void mult();
+	void div();
+
+}

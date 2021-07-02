@@ -1,0 +1,23 @@
+package allfunctioninterface;
+
+public class InverseIntegerArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a[]= {5,8,9,7,4,3};
+		int j=a.length-1;
+//		int b[]=new int[a.length];
+		for (int i=0;i<a.length;i++) {
+			if(a[i]>a[j]) {
+				int c=a[i];
+				a[j]=a[j];
+				a[j]=c;
+				j--;
+			}
+			else
+				System.out.println(j);
+			
+		}
+	}
+
+}

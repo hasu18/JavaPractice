@@ -1,0 +1,11 @@
+package objectsofclass;
+
+public class StudentDetails {
+	
+	private String studentName;
+	private int sdtudentRollNo;
+	private int studentAge;
+	
+	
+
+}

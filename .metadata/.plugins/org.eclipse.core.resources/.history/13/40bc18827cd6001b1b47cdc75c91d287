@@ -1,0 +1,55 @@
+package CallObjectsMainMethod;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import objectsofclass.Employee;
+import objectsofclass.EmployeeAddresss;
+import objectsofclass.EmployeeBankDetails;
+import objectsofclass.EmployeePersonalDetails;
+
+public class MainMethodToCallObjects {
+	
+	public static void main(String args[]) {
+		try {
+			
+				Employee emp = new Employee();
+		
+		EmployeeAddresss empAddress = new EmployeeAddresss();
+		empAddress.setCountry("India");
+		empAddress.setPermanentAdress("Kutch Madhapart Navavas 370020");
+		empAddress.setPinCode(370020);
+		empAddress.setTemporaryAddress(empAddress.getPermanentAdress());
+		
+		
+		EmployeePersonalDetails empPersonalDetails = new EmployeePersonalDetails();
+		empPersonalDetails.setEmpAddress(empAddress);
+		empPersonalDetails.setAge(22);
+		
+		Date empDob = new SimpleDateFormat("yyyy/MM/dd").parse("2012/05/05");
+		
+		empPersonalDetails.setDataOfBirth(empDob);
+		empPersonalDetails.setEmployeeCompleteName("Harsh Vagadia");
+		empPersonalDetails.setGender("Male");
+		
+		Date empAccountCreationDate = new SimpleDateFormat("yyyy/MM/dd").parse("2018/05/05");
+
+		
+		EmployeeBankDetails empBankDetails = new EmployeeBankDetails();
+		empBankDetails.setAccountCreationDate(empAccountCreationDate);
+		empBankDetails.setAccountName(empPersonalDetails.getEmployeeCompleteName());
+		empBankDetails.setAccountNo(123546546);
+		empBankDetails.setIfscCode("HDFC123456");
+		
+		
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,16 @@
+package allfunctioninterface;
+
+public class MainStringLoop {
+
+	public static void main(String[] args) {
+
+		String name[]= {"name","harsh","jigo","parth","babu"};
+		int a[]= {15895,58965,52456,5896,58964};
+		
+		for(int i=0;i<5;i++) {
+			System.out.println(name[i]+"  "+a[i]);
+		}
+		
+	}
+
+}

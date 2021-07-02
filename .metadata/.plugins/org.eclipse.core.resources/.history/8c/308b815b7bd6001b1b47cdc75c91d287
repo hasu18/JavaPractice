@@ -1,0 +1,19 @@
+package CallObjectsMainMethod;
+
+import objectsofclass.Employee;
+import objectsofclass.EmployeeAddresss;
+
+public class MainMethodToCallObjects {
+	
+	public static void main(String args[]) {
+		
+		Employee emp = new Employee();
+		
+		EmployeeAddresss empAddress = new EmployeeAddresss();
+		
+		
+		
+	}
+	
+
+}

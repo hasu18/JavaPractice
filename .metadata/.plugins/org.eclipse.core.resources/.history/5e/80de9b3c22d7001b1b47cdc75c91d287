@@ -1,0 +1,38 @@
+package factory;
+
+public class Account {
+	private int accountNo;
+	private String accountName;
+	private String gender;
+	private int age;
+	public int getAccountNo() {
+		return accountNo;
+	}
+	public void setAccountNo(int accountNo) {
+		this.accountNo = accountNo;
+	}
+	public String getAccountName() {
+		return accountName;
+	}
+	public void setAccountName(String accountName) {
+		this.accountName = accountName;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	@Override
+	public String toString() {
+		return "Account [accountNo=" + accountNo + ", accountName=" + accountName + ", gender=" + gender + ", age="
+				+ age + "]";
+	}
+	
+}

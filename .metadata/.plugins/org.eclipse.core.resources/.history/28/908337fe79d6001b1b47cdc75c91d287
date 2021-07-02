@@ -1,0 +1,12 @@
+package objectsofclass;
+
+import java.util.Date;
+
+public class EmployeeVisaDetails {
+
+	private int passportNo;
+	private String passportHolderName;
+	private Date passportExpirtData;
+	
+	
+}

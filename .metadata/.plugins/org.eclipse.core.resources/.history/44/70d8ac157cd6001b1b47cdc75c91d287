@@ -1,0 +1,42 @@
+package CallObjectsMainMethod;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import objectsofclass.Employee;
+import objectsofclass.EmployeeAddresss;
+import objectsofclass.EmployeePersonalDetails;
+
+public class MainMethodToCallObjects {
+	
+	public static void main(String args[]) {
+		try {
+			
+				Employee emp = new Employee();
+		
+		EmployeeAddresss empAddress = new EmployeeAddresss();
+		empAddress.setCountry("India");
+		empAddress.setPermanentAdress("Kutch Madhapart Navavas 370020");
+		empAddress.setPinCode(370020);
+		empAddress.setTemporaryAddress(empAddress.getPermanentAdress());
+		
+		
+		EmployeePersonalDetails empPersonalDetails = new EmployeePersonalDetails();
+		empPersonalDetails.setEmpAddress(empAddress);
+		empPersonalDetails.setAge(22);
+		
+		Date empDob = new SimpleDateFormat("yyyy/MM/dd").parse("2012/05/05");
+		
+		empPersonalDetails.setDataOfBirth(empDob);
+		
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		
+		
+		
+	}
+	
+
+}

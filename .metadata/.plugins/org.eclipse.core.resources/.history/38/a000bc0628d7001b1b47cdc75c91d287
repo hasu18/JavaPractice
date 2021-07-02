@@ -1,0 +1,11 @@
+package practice;
+
+public class InverseString {
+
+	public static void main(String[] args) {
+
+		String name="harsh";
+		
+	}
+
+}

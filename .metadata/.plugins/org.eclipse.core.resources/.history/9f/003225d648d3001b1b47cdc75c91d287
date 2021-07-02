@@ -1,0 +1,14 @@
+package javaPracticeTest1;
+
+import javaPracticeTest1.callfunction;
+
+public class MainClassPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+				
+
+	}
+
+}

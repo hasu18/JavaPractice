@@ -1,0 +1,12 @@
+package objectsofclass;
+
+public class EmployeeAddresss {
+	
+	private int pinCode;
+	private String state;
+	private String permanentAdress;
+	private String temporaryAddress;
+	private String country;
+	
+
+}

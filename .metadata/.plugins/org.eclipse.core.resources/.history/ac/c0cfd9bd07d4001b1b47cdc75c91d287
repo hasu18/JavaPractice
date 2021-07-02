@@ -1,0 +1,18 @@
+package javaPracticeTest1;
+
+import javaPracticeTest1.callfunction;
+
+public class MainClassPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			callfunction calfun=new callfunction();
+			
+			String praArray[] = {"name", "1","2","james12","parth234","12htc"}; 
+			
+			
+
+	}
+
+}

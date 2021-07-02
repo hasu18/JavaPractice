@@ -1,0 +1,10 @@
+package objectsofclass;
+
+public class Employee {
+	
+	private EmployeeBankDetails empbankDetails;
+	private EmployeePersonalDetails empPersonalDetails;
+	private EmployeeVisaDetails empVisaDetails;
+	
+
+}

@@ -1,0 +1,22 @@
+package objectsofclass;
+
+public class StudentDetails {
+	
+	private String studentName;
+	private int sdtudentRollNo;
+	private int studentAge;
+	
+	
+	public StudentDetails() {
+		
+	}
+	
+	@Override
+	public String toString() {
+		return "StudentDetails [studentName=" + studentName + ", sdtudentRollNo=" + sdtudentRollNo + ", studentAge="
+				+ studentAge + "]";
+	}
+	
+	
+
+}

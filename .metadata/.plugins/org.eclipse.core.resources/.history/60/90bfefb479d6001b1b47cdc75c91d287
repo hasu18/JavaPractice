@@ -1,0 +1,12 @@
+package objectsofclass;
+
+import java.util.Date;
+
+public class EmployeeBankDetails {
+	
+	private int accountNo;
+	private String accountName;
+    private Date accountCreationDate;
+    private String ifscCode;
+	
+}

@@ -1,0 +1,13 @@
+package CallObjectsMainMethod;
+
+import objectsofclass.StudentDetails;
+
+public class StudentObjMainMethod {
+	
+	public static void main (String args []) {
+		
+		StudentDetails std = new StudentDetails();
+		
+	}
+
+}

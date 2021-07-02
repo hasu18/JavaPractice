@@ -1,0 +1,14 @@
+package allfunctioninterface;
+
+public class InverseIntegerArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a[]= {5,8,9,7,4,3};
+		
+		for (int i=0;i<a.length;i++) {
+			
+		}
+	}
+
+}

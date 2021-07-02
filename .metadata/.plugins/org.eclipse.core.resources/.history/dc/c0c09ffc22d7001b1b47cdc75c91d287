@@ -1,0 +1,24 @@
+package factory;
+
+public class FactoryMain {
+
+	public static void main(String[] args) {
+		
+		try {
+		Department department=new Department();
+		department.setDepartmentName("Computer");
+		department.setEmplyoeeName("harsh v");
+		department.setPhoneNo(98956248);
+		
+		
+		
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+
+}

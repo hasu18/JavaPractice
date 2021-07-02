@@ -1,0 +1,32 @@
+package factory;
+
+public class FactoryMain {
+
+	public static void main(String[] args) {
+		
+		try {
+			IT it=new IT(846,"heloo");
+			
+			Account acc=new Account();
+			acc.setSerialNo(684);
+			acc.setaccountName("computer");
+			
+			
+			
+		Department department=new Department();
+		department.setDepartmentName(acc);
+		department.setEmplyoeeName("harsh v");
+		department.setPhoneNo(98956248);
+		
+		
+		
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+
+}

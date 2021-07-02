@@ -1,0 +1,18 @@
+package factory;
+
+public class Account {
+	private String accountName;
+	private int serialNo;
+	@Override
+	public String toString() {
+		return "Account [accountName=" + accountName + ", serialNo=" + serialNo + "]";
+	}
+	public int getSerialNo() {
+		return serialNo;
+	}
+	public void setSerialNo(int serialNo) {
+		this.serialNo = serialNo;
+	}
+	
+	
+}

@@ -1,0 +1,25 @@
+package CallObjectsMainMethod;
+
+import objectsofclass.Employee;
+import objectsofclass.EmployeeAddresss;
+
+public class MainMethodToCallObjects {
+	
+	public static void main(String args[]) {
+		
+		Employee emp = new Employee();
+		
+		EmployeeAddresss empAddress = new EmployeeAddresss();
+		empAddress.setCountry("India");
+		empAddress.setPermanentAdress("Kutch Madhapart Navavas 370020");
+		empAddress.setPinCode(370020);
+		empAddress.setTemporaryAddress(empAddress.getPermanentAdress());
+		
+		
+		
+		
+		
+	}
+	
+
+}

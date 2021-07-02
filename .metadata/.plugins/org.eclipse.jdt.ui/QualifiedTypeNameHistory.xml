@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Float"/>
+    <fullyQualifiedTypeName name="function.CalculationFunction"/>
+    <fullyQualifiedTypeName name="allfunctioninterface.CalculationInterface"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="javaPracticeTest1.function"/>
+    <fullyQualifiedTypeName name="javaPracticeTest1.callfunction"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.debugger.win32.coff.DebugDirectoryEntry"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.comp.Check"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="objectsofclass.EmployeeBankDetails"/>
+    <fullyQualifiedTypeName name="objectsofclass.EmployeePersonalDetails"/>
+    <fullyQualifiedTypeName name="objectsofclass.Employee"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="objectsofclass.EmployeeVisaDetails"/>
+    <fullyQualifiedTypeName name="CallObjectsMainMethod.StudentObjMainMethod"/>
+    <fullyQualifiedTypeName name="objectsofclass.StudentDetails"/>
+    <fullyQualifiedTypeName name="factory.IT"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>

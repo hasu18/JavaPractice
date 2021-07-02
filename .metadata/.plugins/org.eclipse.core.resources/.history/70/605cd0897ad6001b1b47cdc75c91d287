@@ -1,0 +1,14 @@
+package objectsofclass;
+
+import java.util.Date;
+
+public class EmployeePersonalDetails {
+
+	
+	private String employeeCompleteName;
+	private int age;
+	private Date dataOfBirth;
+	private String gender;
+
+	
+}

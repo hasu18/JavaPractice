@@ -1,0 +1,17 @@
+package factory;
+
+public class IT {
+	
+	private int SerialNo;
+	private String name;
+	
+	private IT(int SerialNo, String name) 
+	{
+		super();
+		this.SerialNo = SerialNo;
+		this.name = name;
+		
+	}
+	
+	
+}
